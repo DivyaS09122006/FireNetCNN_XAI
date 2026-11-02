@@ -1,0 +1,60 @@
+{
+  "accuracy": 0.616,
+  "macro_f1": 0.61624252485427,
+  "classification_report": {
+    "Low": {
+      "precision": 0.7037037037037037,
+      "recall": 0.5588235294117647,
+      "f1-score": 0.6229508196721312,
+      "support": 34.0
+    },
+    "Moderate": {
+      "precision": 0.5230769230769231,
+      "recall": 0.7555555555555555,
+      "f1-score": 0.6181818181818182,
+      "support": 45.0
+    },
+    "High": {
+      "precision": 0.7272727272727273,
+      "recall": 0.5217391304347826,
+      "f1-score": 0.6075949367088608,
+      "support": 46.0
+    },
+    "accuracy": 0.616,
+    "macro avg": {
+      "precision": 0.6513511180177847,
+      "recall": 0.6120394051340342,
+      "f1-score": 0.61624252485427,
+      "support": 125.0
+    },
+    "weighted avg": {
+      "precision": 0.6473514633514634,
+      "recall": 0.616,
+      "f1-score": 0.615583014205135,
+      "support": 125.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      19,
+      13,
+      2
+    ],
+    [
+      4,
+      34,
+      7
+    ],
+    [
+      4,
+      18,
+      24
+    ]
+  ],
+  "evaluation_note": "Preliminary random image-level split. The subset is from one prescribed burn and has no verified video/session IDs; this is not an unseen-video or unseen-fire generalization result.",
+  "severity_definition": "Relative thermal proxy score: 0.40 normalized fraction of pixels >=100C, 0.30 normalized thermal mean, 0.30 normalized thermal p95. Normalization and tercile thresholds fitted on training subset only.",
+  "train_score_tercile_cutoffs": [
+    0.11645214022011667,
+    0.2713503382341197
+  ]
+}

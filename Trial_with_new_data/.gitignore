@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset - do not upload
+flame3_severity dataset/
+CVSubset/
+
+# Model checkpoints
+*.keras
+*.h5
+*.hdf5
+
+# TensorFlow logs
+logs/
+tensorboard/
+events.out.tfevents.*
+
+# Generated temporary files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.bak
+*.swp

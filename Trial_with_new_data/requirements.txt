@@ -1,0 +1,9 @@
+tensorflow==2.21.0
+numpy
+pandas
+scikit-learn
+opencv-python
+tifffile
+matplotlib
+scipy
+jupyter
